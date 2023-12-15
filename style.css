@@ -1,16 +1,21 @@
 * {
     background-color: #272838;
-    color: #fff;
+    color: #f7f3fb;;
 }
 
  @font-face {
     font-family: "HP";
-    src: url("/HarryP-MVZ6w.ttf");
+    src: url("/assets/fonts/HarryP-MVZ6w.ttf");
  }
 
  @font-face {
     font-family: "Ovation";
-    src: url("/Ovation-axD6o.ttf");
+    src: url("/assets/fonts/Ovation-axD6o.ttf");
+ }
+
+ @font-face {
+   font-family: "Questions";
+   src: url("/assets/fonts/Harrypotter7-242K.ttf");
  }
 
  #quiz-container, .question-container, p {
@@ -39,6 +44,8 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
     
 }
 
@@ -48,8 +55,10 @@ button {
     position: absolute;
     margin-left: 12%;
     margin-top: 8%;
-    color: #7886CB;
+    color: #AD861F;
  }
+
+
 
  img {
     position: fixed;
@@ -64,8 +73,14 @@ button {
  .score {
    position: absolute;
    font-family: "HP";
+   font-weight: normal;
    margin-top: 5%;
    margin-right: 5%;
    font-size: 3rem;
-   color: #CB9F24;
+   
+ }
+
+ p {
+   font-family: "Questions";
+   color: #E8BC40;
  }

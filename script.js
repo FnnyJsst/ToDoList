@@ -1,7 +1,7 @@
 const quizzData = [
     {
         question: "Quel animal est associé à la maison Gryffondor à Poudlard?",
-        options: ["Serpent", "Hibou", "Lion"],
+        options: ["Le serpent", "Le hibou", "Le lion"],
         correctAnswer: "Lion"
     },
     {

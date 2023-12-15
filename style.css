@@ -3,10 +3,10 @@
     color: #fff;
 }
 
- /* @font-face {
+ @font-face {
     font-family: "HP";
     src: url("/HarryP-MVZ6w.ttf");
- } */
+ }
 
  @font-face {
     font-family: "Ovation";
@@ -29,10 +29,6 @@
     margin-bottom: 20px;
 }
 
-p {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
 
 button {
     display: block;
@@ -58,4 +54,18 @@ button {
  img {
     position: fixed;
     height: 30%;
+ }
+
+ .score-container {
+   display: flex;
+   flex-direction: row-reverse;
+ }
+
+ .score {
+   position: absolute;
+   font-family: "HP";
+   margin-top: 5%;
+   margin-right: 5%;
+   font-size: 3rem;
+   color: #CB9F24;
  }

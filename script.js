@@ -2,7 +2,7 @@ const quizzData = [
     {
         question: "Quel animal est associé à la maison Gryffondor à Poudlard?",
         options: ["Le serpent", "Le hibou", "Le lion"],
-        correctAnswer: "Lion"
+        correctAnswer: "Le lion"
     },
     {
         question: "Quel sortilège est utilisé pour désarmer un adversaire dans le monde de Harry Potter?",
@@ -19,11 +19,9 @@ const quizzData = [
 const quizContainer = document.getElementById('quiz-container');
 let score = 0;
 
-
-//Fonction pour afficher les questions et réponses
 //Fonction pour afficher les questions et réponses
 function displayQuestions() {
-    const pUpdatedScore = document.querySelector('.score'); // Utiliser querySelector pour obtenir un élément unique
+    const pUpdatedScore = document.querySelector('.score'); 
     pUpdatedScore.innerHTML = `Score : ${score}`;
 
     quizzData.forEach((currentQuizzData) => {
@@ -81,9 +79,3 @@ function displayQuestions() {
 
 
 displayQuestions();
-
-
-
-
-
-
